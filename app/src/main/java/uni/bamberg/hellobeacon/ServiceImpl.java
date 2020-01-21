@@ -20,7 +20,7 @@ import java.util.ArrayList;
 public class ServiceImpl extends IntentService {
     private BufferedReader reader;
     private ArrayList<Beacon> scanned_beacons = new ArrayList<>();
-    public static int NOTIFICATION_ID = 1; //Andriy. 02.12.2016
+    public static int NOTIFICATION_ID = 1;
 
     public ServiceImpl() {
         super("ServiceImpl");
